@@ -5,8 +5,8 @@
 }
 body{
     background-color: white;
+    width: 1600px;
 }
-
 
 
 /* Navbar */
@@ -57,12 +57,12 @@ body{
     color: white;
     width: 600px;
     padding: 120px 80px;
-    margin-left: 380px;
+    margin-left: 500px;
 }
 
 .badge {
     background: white;
-    color: #2c7a4b;
+    color: #30B868;
     padding: 6px 14px;
     border-radius: 20px;
     font-size: 12px;
@@ -96,7 +96,7 @@ body{
 }
 
 .primary {
-    background: #2c7a4b;
+    background: #30B868;
     color: white;
 }
 
@@ -122,11 +122,6 @@ body{
     font-size: 34px;
     margin-bottom: 10px;
 }
-
-.problems h2 span {
-    color: #2c7a4b;
-}
-
 .subtitle {
     font-size: 15px;
     color: #6b7280;
@@ -199,11 +194,13 @@ body{
 
 
 
+
 /* Solution Section */
 .solution {
     display: flex;
     padding: 120px 80px;
     background: white;
+    margin-left: 100px;
 }
 
 
