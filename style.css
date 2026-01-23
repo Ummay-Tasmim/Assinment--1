@@ -33,12 +33,19 @@ body{
 }
 
 .access-btn {
-    background: #30B868;
+    background: #3ff089;
     color: white;
     padding: 10px 18px;
     text-decoration: none;
     border-radius: 6px;
     font-size: 14px;
+}
+
+
+.access-btn:hover {
+    background: #0d5f2e;
+    box-shadow: 0 6px 15px rgba(3, 58, 25, 0.4);
+    transform: translateY(-2px);
 }
 /*Navber End*/
 
@@ -100,9 +107,22 @@ body{
     color: white;
 }
 
+.primary:hover {
+    background: #0d5f2e;
+    box-shadow: 0 6px 15px rgba(3, 58, 25, 0.4);
+    transform: translateY(-2px);
+}
+
 .secondary {
     border: 1px solid white;
     color: white;
+}
+
+.secondary:hover {
+    background: white;           
+    color: #30B868;
+    box-shadow: 0 6px 15px rgba(255, 255, 255, 0.35);
+    transform: translateY(-2px);
 }
 /*Hero Section End*/
 
